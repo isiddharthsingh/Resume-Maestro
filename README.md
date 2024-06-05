@@ -52,6 +52,12 @@ This project is a Resume Optimizer application that uses OpenAI's GPT-4 model to
 
 ## Usage
 
+### Running Weaviate with Docker
+
+1. Pull and run the Weaviate Docker container:
+    ```bash
+    docker run -d -p 8080:8080 semitechnologies/weaviate:latest
+
 ### Running the Backend
 
 1. Navigate to the backend directory:
@@ -78,11 +84,7 @@ This project is a Resume Optimizer application that uses OpenAI's GPT-4 model to
 
 3. Open your web browser and go to `http://localhost:8501`.
 
-### Running Weaviate with Docker
 
-1. Pull and run the Weaviate Docker container:
-    ```bash
-    docker run -d -p 8080:8080 semitechnologies/weaviate:latest
     ```
 
 ### Optimizing a Resume
