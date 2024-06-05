@@ -9,6 +9,10 @@ This project is a Resume Optimizer application that uses OpenAI's GPT-4 model to
 - Generate LaTeX and PDF versions of the optimized resume
 - Download the optimized LaTeX and PDF files
 
+## Future Work
+
+Currently, the generated resumes may vary slightly with each optimization due to the nature of AI-generated content. In the future, we plan to implement a feature that uses a predefined LaTeX template and fills in the details, ensuring a consistent and professional format for every generated resume.
+
 ## Requirements
 
 - Python 3.8+
@@ -57,6 +61,7 @@ This project is a Resume Optimizer application that uses OpenAI's GPT-4 model to
 1. Pull and run the Weaviate Docker container:
     ```bash
     docker run -d -p 8080:8080 semitechnologies/weaviate:latest
+    ```
 
 ### Running the Backend
 
@@ -84,9 +89,6 @@ This project is a Resume Optimizer application that uses OpenAI's GPT-4 model to
 
 3. Open your web browser and go to `http://localhost:8501`.
 
-
-    ```
-
 ### Optimizing a Resume
 
 1. Enter the job description in the provided text area.
@@ -94,7 +96,7 @@ This project is a Resume Optimizer application that uses OpenAI's GPT-4 model to
 3. Click the "Optimize Resume" button.
 4. Download the optimized LaTeX and PDF files.
 
-### Frontend Ui
+### Frontend UI
 ![alt text](image.png)
 
 #### If you do not like the generated resume then again click Optimize Resume
@@ -104,9 +106,11 @@ This project is a Resume Optimizer application that uses OpenAI's GPT-4 model to
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contributions
+
 While this is a personal project focused on my own learning and development, any constructive feedback, suggestions, or contributions to the existing solutions are always welcome. If you'd like to contribute, please feel free to submit a pull request.
 
 ## Contact
+
 For any inquiries or collaborations, feel free to reach out to me via sms10221@nyu.edu
 
 ## Acknowledgements
@@ -117,3 +121,4 @@ For any inquiries or collaborations, feel free to reach out to me via sms10221@n
 - [PyMuPDF](https://pymupdf.readthedocs.io/) for PDF processing
 - [MiKTeX](https://miktex.org/) for LaTeX processing
 - [Weaviate](https://www.semi.technology/developers/weaviate/current/) for vector search
+
