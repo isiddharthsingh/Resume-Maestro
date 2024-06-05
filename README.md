@@ -1,4 +1,4 @@
-# Resume Optimizer
+# Resume Maestro
 
 This project is a Resume Optimizer application that uses OpenAI's GPT-4 model to optimize resumes based on provided job descriptions. It takes a resume PDF and a job description, optimizes the resume, and generates a LaTeX and PDF version of the optimized resume.
 
@@ -91,6 +91,11 @@ This project is a Resume Optimizer application that uses OpenAI's GPT-4 model to
 2. Upload the resume PDF file.
 3. Click the "Optimize Resume" button.
 4. Download the optimized LaTeX and PDF files.
+
+### Frontend Ui
+![alt text](image.png)
+
+#### If you do not like the generated resume then again click Optimize Resume
 
 ## License
 
